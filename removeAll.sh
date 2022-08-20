@@ -12,7 +12,7 @@ echo "*************************************${normal}"
 docker rm -vf $(docker ps -aq)
 docker rmi -f $(docker images -aq)
 
-docker network rm hlbprivacy2_mynetwork.com
+docker network rm hlbprivacy3_mynetwork.com
 
 rm -Rf ./config/networkFiles/node1/data/*
 rm -Rf ./config/networkFiles/node2/data/*
